@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./css/styles.css">
+
+    <title>Dev Test</title>
+</head>
+<body>
+<div class="body">
+    <main id="swup" class="transition-fade">
+    <div class="block">
+        <div class="item">
+            <a href="index.html" class="form-item"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-house-door-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path d="M6.5 10.995V14.5a.5.5 0 0 1-.5.5H2a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .146-.354l6-6a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 .146.354v7a.5.5 0 0 1-.5.5h-4a.5.5 0 0 1-.5-.5V11c0-.25-.25-.5-.5-.5H7c-.25 0-.5.25-.5.495z"/>
+                <path fill-rule="evenodd" d="M13 2.5V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
+            </svg></a>
+        </div>
+        <div class="arrow"></div>
+        <div class="item2">
+            <a href="index.html" class="form-item2" style="white-space: nowrap">Contact Info</a>
+        </div>
+        <div class="arrow"></div>
+        <div class="item">
+            <a  href="step2.html" class="form-item2">Quantity</a>
+        </div>
+        <div class="arrow"></div>
+        <div class="item">
+            <a id="active" href="Price.html" class="form-item2">Price</a>
+        </div>
+        <div class="arrow"></div>
+        <div class="item">
+            <a href="" class="form-item2">Done</a>
+        </div>
+
+
+
+
+
+    </div>
+    <div class="text">Price</div>
+
+    <div class="dollar">$</div><span id="result" class="result"></span>
+    <script>
+        document.getElementById("result").innerHTML=localStorage.getItem("textvalue");
+    </script>
+
+    <form>
+
+        <div class="messages"></div>
+
+        <div class="controls">
+
+                <button type="button" id="button" class="btn"><a href="Done.html" class="text-btn">Continue</a></button>
+
+            <button type="button" id="button-back" class="btn-back"><a href="" class="icon-arrow"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-left-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M7.854 4.646a.5.5 0 0 1 0 .708L5.207 8l2.647 2.646a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 0 1 .708 0z"/>
+                <path fill-rule="evenodd" d="M4.5 8a.5.5 0 0 1 .5-.5h6.5a.5.5 0 0 1 0 1H5a.5.5 0 0 1-.5-.5z"/>
+            </svg></a><a href="step2.html" class="text-btn-back">Back</a></button>
+
+
+        </div>
+
+        <p class="title" style="white-space: nowrap">
+            Title<br>
+            <sub>This is the description</sub>
+        </p>
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="./js/scripts.js"></script>
+
+
+    </form>
+</div>
+</body>
+</html>

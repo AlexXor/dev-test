@@ -1,0 +1,542 @@
+.body{
+    position: absolute;
+    width: 770px;
+    height: 470px;
+    left: 550px;
+    top: 197px;
+
+    background: #E5E5E5;
+    border-radius: 6px;
+}
+
+.item {
+    float: left;
+    width: 10%;
+    height: 44px;
+    position: relative;
+    background: #ffffff;
+
+
+}
+.item2 {
+    float: left;
+    width: 80px;
+    height: 44px;
+    position: relative;
+    background: #ffffff;
+
+
+}
+
+.arrow {
+    width: 31px;
+    height: 31px;
+    border-top: 1px solid #E5E5E5;
+    border-right: 1px solid #E5E5E5;
+    transform: rotate(45deg);
+    margin-right: 16px;
+
+}
+
+
+li {
+    list-style-type: none;
+    /* Убираем маркеры */
+}
+.block{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+
+    position: absolute;
+    width: 503px;
+    height: 44px;
+    left: 80px;
+    top: 43px;
+
+    background: #ffffff;
+
+    /* shadow */
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.06);
+    border-radius: 6px;
+}
+.form-item{
+    position: absolute;
+    left: 50%;
+    top: 30%;
+
+    color: #9CA3AF;}
+
+.form-item2{
+
+    position: absolute;
+    left: 10%;
+    top: 30%;
+    text-align: left;
+    color: #9CA3AF;
+
+}
+
+.text{
+    position: absolute;
+    width: 520px;
+    height: 48px;
+    left: 78px;
+    top: 116px;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 100%;
+
+    /* identical to box height, or 48px */
+    display: flex;
+    align-items: center;
+    letter-spacing: -2.14px;
+
+    /* Cool Gray / 900 */
+    color: #111827;
+}
+#active { color: blue; }
+
+.input-name{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 16px;
+
+    position: absolute;
+    width: 370px;
+    height: 44px;
+    left: 239px;
+    top: 193px;
+
+    /* White */
+    background: #FFFFFF;
+    /* Cool Gray / 300 */
+    border: 1px solid #D1D5DB;
+    box-sizing: border-box;
+    /* shadow-sm */
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.07);
+    border-radius: 6px;
+
+}
+.name{
+
+    position: absolute;
+    width: 42px;
+    height: 20px;
+    left: 168px;
+    top: 205px;
+
+    /* base / Regular */
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 135%;
+
+    /* or 20px */
+    text-align: right;
+    letter-spacing: -0.18px;
+
+    color: #4B5563;
+}
+#exampleInputEmail1{
+    /* Type=Ghost, Size=L, Icon Left=False, Icon Right=False */
+
+    /* Auto Layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 16px;
+
+    position: absolute;
+    width: 370px;
+    height: 44px;
+    left: 239px;
+    top: 256px;
+
+    /* White */
+    background: #FFFFFF;
+    /* Cool Gray / 300 */
+    border: 1px solid #D1D5DB;
+    box-sizing: border-box;
+    /* shadow-sm */
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.07);
+    border-radius: 6px;
+
+}
+.email{
+    /* Email required */
+
+    position: absolute;
+    width: 81px;
+    height: 20px;
+    left: 125px;
+    top: 265px;
+
+    /* base / Regular */
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 135%;
+    /* or 20px */
+    text-align: right;
+    letter-spacing: -0.18px;
+
+    color: #4B5563;
+
+
+}
+.quan{
+    /* Quantity required */
+
+    position: absolute;
+    width: 104px;
+    height: 20px;
+    left: 106px;
+    top: 202px;
+
+    /* base / Regular */
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 135%;
+    /* or 20px */
+    text-align: right;
+    letter-spacing: -0.18px;
+
+    color: #4B5563;
+
+
+}
+
+.req{
+    height: 20px;
+    left: 120px;
+    color: #989DA4FF;
+    font-size: 10px;
+
+}
+a{
+    text-decoration: none;
+}
+
+
+#exampleInputphone{
+    /* Type=Ghost, Size=L, Icon Left=False, Icon Right=False */
+
+    /* Auto Layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 16px;
+
+    position: absolute;
+    width: 370px;
+    height: 44px;
+    left: 239px;
+    top: 319px;
+
+    /* White */
+    background: #FFFFFF;
+    /* Cool Gray / 300 */
+    border: 1px solid #D1D5DB;
+    box-sizing: border-box;
+    /* shadow-sm */
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.07);
+    border-radius: 6px;
+
+
+}
+.phone{
+    /* Phone */
+
+    position: absolute;
+    width: 45px;
+    height: 20px;
+    left: 165px;
+    top: 331px;
+
+    /* base / Regular */
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 135%;
+    /* or 20px */
+    text-align: right;
+    letter-spacing: -0.18px;
+
+    color: #4B5563;
+
+
+}
+.btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+
+    position: absolute;
+    width: 96px;
+    height: 44px;
+    left: 80px;
+    top: 382px;
+
+    /* Indigo / 600 */
+    background: #4F46E5;
+
+    /* shadow-sm */
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.07);
+    border-radius: 6px;
+
+
+}
+.btn-new{
+    position: absolute;
+    width: 115px;
+    height: 44px;
+    left: 96px;
+    top: 394px;
+
+    background: #4B42D7FF;
+    border-radius: 6px;
+}
+
+.text-btn{
+    position: static;
+    width: 64px;
+    height: 20px;
+    left: 16px;
+    top: 12px;
+
+    /* base / Regular */
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 135%;
+
+    /* or 20px */
+    text-align: center;
+    letter-spacing: -0.18px;
+
+    /* White */
+    color: #FFFFFF;
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 8px;
+}
+.title{
+    /* Title This is the description */
+
+    position: absolute;
+    width: 155px;
+    height: 74px;
+    left: 54px;
+    top: 500px;
+
+    /* base / Regular */
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 135%;
+    /* or 32px */
+    letter-spacing: -0.18px;
+
+    color: #4B5563;
+
+
+}
+
+.quantity{
+    position: absolute;
+    width: 104px;
+    height: 20px;
+    left: 70px;
+    top: 205px;
+
+    /* base / Regular */
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 135%;
+
+    /* or 20px */
+    text-align: right;
+    letter-spacing: -0.18px;
+
+    color: #4B5563;
+
+
+}
+
+.newarrow{
+    position: absolute;
+    width: 770px;
+    height: 470px;
+    left: 127px;
+    top: 197px;
+
+    background: #E5E5E5;
+    border-radius: 6px;
+}
+
+.btn-back{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 16px;
+
+    position: absolute;
+    width: 85px;
+    height: 44px;
+    left: 195px;
+    top: 382px;
+
+    background: #F4F4F4;
+    border-radius: 6px;
+}
+.text-btn-back{
+    position: static;
+    width: 53px;
+    height: 20px;
+    left: 16px;
+    top: 12px;
+
+    /* base / Regular */
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 135%;
+
+    /* or 20px */
+    text-align: center;
+    letter-spacing: -0.18px;
+
+    /* Indigo / 600 */
+    color: #4F46E5;
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 8px;
+}
+
+.icon-arrow{
+    position: absolute;
+    left: 10%;
+    top: 28%;
+    width: 20px;
+    height: 48px;
+
+}
+.arrow2{
+    position: absolute;
+    left: 83%;
+    top: 28%;
+    width: 20px;
+    height: 48px;
+    color: #E5E5E5;
+
+}
+
+.result{
+    position: absolute;
+    width: 770px;
+    height: 470px;
+    left: 150px;
+    top: 190px;
+    font-size: 140px;
+
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%;
+
+    /* or 144px */
+
+    /* Cool Gray / 900 */
+    color: #111827;
+
+}
+
+.dollar{
+    position: absolute;
+    width: 770px;
+    height: 470px;
+    left: 72px;
+    top: 190px;
+    font-size: 140px;
+
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%;
+
+    /* or 144px */
+
+    /* Cool Gray / 900 */
+    color: #111827;
+
+
+}
+
+.success{
+    position: absolute;
+    width: 770px;
+    height: 470px;
+    left: 127px;
+    top: 197px;
+
+
+}
+.square-fill{
+    position: absolute;
+    width: 770px;
+    height: 470px;
+    left: 110px;
+    top: 215px;
+    color: #01BB01FF;
+    border-radius: 10px;
+}
+.transition-fade{
+    transition: .4s;
+    opacity: 1;
+}
+html.is-animating .transition-fade{
+    opacity: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
